@@ -133,7 +133,7 @@ final class Geonames extends AbstractHttpProvider implements Provider
                 ->setBounds($item->south, $item->west, $item->north, $item->east)
                 ->withContinent($item->continent ?? null)
                 ->withCapital($item->capital ?? null)
-                ->withLanguages($item->langesuages ?? '')
+                ->withLanguages($item->languages ?? '')
                 ->withGeonameId($item->geonameId ?? null)
                 ->withIsoAlpha3($item->isoAlpha3 ?? null)
                 ->withFipsCode($item->fipsCode ?? null)
